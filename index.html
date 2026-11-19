@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Abuto John Campaign</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/john-abuto.jpg.jpg"
+             alt=" John Abuto Campaign Poster"
+             class="poster">
+
+        <h1>ABUTO JOHN</h1>
+
+        <h2>Delegate - Management Science</h2>
+
+        <p>
+            Integrity in Voting, True Representation
+            for Management Science
+        </p>
+
+    </header>
+
+    <section>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi comrades.
+
+            I am John Abuto,
+            aspiring Delegate for the Department
+            of Management Science.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>My Vision</h2>
+
+        <p>
+            To ensure the voices of Management Science
+            students are represented fairly and honestly.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Core Pledges</h2>
+
+        <ul>
+
+            <li><strong>Consultative Voting</strong> <br>Engaging with the student body to understand their concerns and<br> perspectives before casting vote.</li>
+
+            <li><strong>Management Science First Agenda</strong><br> Prioritizing the needs and interests of <br>Management Science students to vote strictly for their benefits.</li>
+
+            <li><strong>Integrity and Transparency</strong> <br>Maintaining the highest standards of integrity and<br> transparency in all my actions and decisions.</li>
+
+        </ul>
+
+    </section>
+
+    <section class="strategy">
+
+    <h2>Implementation Strategy</h2>
+
+    <div class="card">
+
+        <h3>Engagement</h3>
+
+        <p>
+            Direct consultation with Class Representatives
+            to gather departmental priorities before voting.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Consensus</h3>
+
+        <p>
+            Ensure that electoral decisions reflect the
+            collective voice of Management Science students.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Accountability</h3>
+
+        <p>
+            Communicate University Electoral commission decisions openly
+            and transparently.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="call-to-action">
+
+    <h2>Vote John Abuto for Delegate</h2>
+
+    <p>
+        Let us send a representative to the Electoral Commission
+        who votes with integrity and puts Management Science first.
+    </p>
+
+    <h3>#AbutoForDelegate</h3>
+    <h3>#AbutoForM.S</h3>
+
+    <button onclick="supportMe()">
+        I Support This Campaign
+    </button>
+
+    <p id="message"></p>
+
+</section>
+
+    <section class="vote">
+
+        <button onclick="supportMe()">
+
+            Support Campaign
+
+        </button>
+
+        <p id="message"></p>
+
+    </section>
+
+    <section class="comments">
+
+    <h2>Leave a Comment</h2>
+
+    <label>Your Name:</label>
+    <br>
+
+    <input type="text"
+           id="username"
+           placeholder="Enter your name">
+
+    <br><br>
+
+    <label>Your Comment:</label>
+    <br>
+
+    <textarea id="comment"
+              rows="5"
+              placeholder="Write your comment"></textarea>
+
+    <br><br>
+
+    <button onclick="addComment()">
+        Submit
+    </button>
+
+    <button id="deleteBtn" 
+    onclick="clearComments()">
+    Delete All Comments
+</button>
+
+    <hr>
+
+    <div id="commentsList"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
